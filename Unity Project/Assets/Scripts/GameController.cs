@@ -26,8 +26,6 @@ public class GameController : MonoBehaviour
     private int lifes = 4;
     private int[] bgColor = new int[4] { 0x020E04, 0x29031D, 0x0F0329, 0x0 };
 
-    //private Dictionary<Type, int> pontuation;
-
     void Awake()
     {
         lifebar = FindObjectOfType<Lifebar>();
