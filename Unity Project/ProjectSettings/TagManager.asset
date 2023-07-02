@@ -3,7 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Platform
+  - Wall
+  - Enemy
+  - Bullet
+  - BulletPlayer
+  - BulletEnemy
+  - Hackable
+  - Missile
+  - Grid
+  - Spawner
+  - JumpCone
+  - Rat
+  - VirtualCamera
   layers:
   - Default
   - TransparentFX
@@ -13,18 +27,18 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Platforms
+  - Characters
+  - Spawner
+  - Foreground
+  - Walls
+  - Crane
+  - Bullet
+  - Missile
+  - HackingParticles
+  - Camera
+  - JumpCheck
   - 
   - 
   - 
@@ -38,6 +52,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 4269076179
+    locked: 0
+  - name: Tileset
+    uniqueID: 2353793069
+    locked: 0
+  - name: Characters
+    uniqueID: 1513144593
+    locked: 0
+  - name: ForeGround
+    uniqueID: 3984803347
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

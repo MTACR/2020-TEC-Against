@@ -6,10 +6,7 @@ Repository for the TEC Game Class
 2019.3.13f1
 ```
 
-### Dependencies
-```
-"com.unity.animation.rigging": "0.2.6-preview"
-"com.unity.cinemachine": "2.5.0"
-```
+https://youtu.be/N8NTSvw2W_8
 
-Should be installed in the Window > Package Manager
+
+[![](http://img.youtube.com/vi/N8NTSvw2W_8/0.jpg)](https://youtu.be/N8NTSvw2W_8)

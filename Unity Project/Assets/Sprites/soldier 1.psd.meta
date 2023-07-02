@@ -1,0 +1,1291 @@
+fileFormatVersion: 2
+guid: 1c4348a1400d78a4c8e79ca5117adfb4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6555572601326478538
+    second: soldier 1_0
+  - first:
+      213: -6665598739224340848
+    second: soldier 1_1
+  - first:
+      213: 3313857191051418555
+    second: soldier 1_2
+  - first:
+      213: 85109842674600050
+    second: soldier 1_3
+  - first:
+      213: -3843281427587675960
+    second: soldier 1_4
+  - first:
+      213: -4265575131426406669
+    second: soldier 1_5
+  - first:
+      213: -4761650471559158958
+    second: soldier 1_6
+  - first:
+      213: -6172370095005586085
+    second: soldier 1_7
+  - first:
+      213: -1122634489573993131
+    second: soldier 1_8
+  - first:
+      213: -4599650117511381504
+    second: soldier 1_9
+  - first:
+      213: 3946009765216428073
+    second: soldier 1_10
+  - first:
+      213: -2948057067730324354
+    second: soldier 1_11
+  - first:
+      213: -3658367731682362037
+    second: soldier 1_12
+  - first:
+      213: 1948322135976207759
+    second: soldier 1_13
+  - first:
+      213: -287913833592302056
+    second: soldier 1_14
+  - first:
+      213: 8094361749645401121
+    second: soldier 1_15
+  - first:
+      213: -5848191477167338687
+    second: soldier 1_16
+  - first:
+      213: -1827809789004432769
+    second: soldier 1_17
+  - first:
+      213: -3524647642990655320
+    second: soldier 1_18
+  - first:
+      213: -7614630683777166539
+    second: soldier 1_19
+  - first:
+      213: 2604020139942344443
+    second: soldier 1_20
+  - first:
+      213: -7887844801727820859
+    second: soldier 1_21
+  - first:
+      213: 2817802408489235765
+    second: soldier 1_22
+  - first:
+      213: 3373261211132539250
+    second: soldier 1_23
+  - first:
+      213: 5162124783031566274
+    second: soldier 1_24
+  - first:
+      213: 8319370364671270518
+    second: soldier 1_25
+  - first:
+      213: -2212880441877055382
+    second: soldier 1_26
+  - first:
+      213: -4466668770871923916
+    second: soldier 1_27
+  - first:
+      213: 2314571653681290476
+    second: soldier 1_28
+  - first:
+      213: 684383446172447771
+    second: soldier 1_29
+  - first:
+      213: -71476247953370237
+    second: soldier 1_30
+  - first:
+      213: 2897788784906306585
+    second: soldier 1_31
+  - first:
+      213: -6232880368638491250
+    second: soldier 1_32
+  - first:
+      213: -2282286934923879562
+    second: soldier 1_33
+  - first:
+      213: -6544757199307186787
+    second: soldier 1_34
+  - first:
+      213: -6308979649100621738
+    second: soldier 1_35
+  - first:
+      213: 4624666032963054033
+    second: soldier 1_36
+  - first:
+      213: -2644763321660109988
+    second: soldier 1_37
+  - first:
+      213: 1251964391705426580
+    second: soldier 1_38
+  - first:
+      213: -1214080897052190127
+    second: soldier 1_39
+  - first:
+      213: 953754196362327656
+    second: soldier 1_40
+  - first:
+      213: 7664645863205435416
+    second: soldier 1_41
+  - first:
+      213: -2639131328105238626
+    second: soldier 1_42
+  - first:
+      213: -4389004326951328973
+    second: soldier 1_43
+  - first:
+      213: 3256048671161474704
+    second: soldier 1_44
+  - first:
+      213: -1411109869131298235
+    second: soldier 1_45
+  - first:
+      213: 7744165307168285158
+    second: soldier 1_46
+  - first:
+      213: -6784311498777852295
+    second: soldier 1_47
+  - first:
+      213: 7288925188433774044
+    second: soldier 1_48
+  - first:
+      213: 3629040115304090900
+    second: soldier 1_49
+  - first:
+      213: -2505099126041951144
+    second: soldier 1_50
+  - first:
+      213: -1089407473294137679
+    second: soldier 1_51
+  - first:
+      213: 6734821691109408685
+    second: soldier 1_52
+  - first:
+      213: -3719205894622604810
+    second: soldier 1_53
+  - first:
+      213: 5205943802838974304
+    second: soldier 1_54
+  - first:
+      213: 4522029613561539995
+    second: soldier 1_55
+  - first:
+      213: 1187178116527861180
+    second: soldier 1_56
+  - first:
+      213: 5811923355025151593
+    second: soldier 1_57
+  - first:
+      213: 5640973405491346527
+    second: soldier 1_58
+  - first:
+      213: -4735811725275501999
+    second: soldier 1_59
+  - first:
+      213: -4953956968792350960
+    second: soldier 1_60
+  - first:
+      213: -568891865370847332
+    second: soldier 1_61
+  - first:
+      213: 1959415708394769321
+    second: soldier 1_62
+  - first:
+      213: -3065581313990383103
+    second: soldier 1_63
+  - first:
+      213: -8728522930335237060
+    second: soldier 1_64
+  - first:
+      213: -1850037348386636329
+    second: soldier 1_65
+  - first:
+      213: -4979960680945277337
+    second: soldier 1_66
+  - first:
+      213: 8396761855312636686
+    second: soldier 1_67
+  - first:
+      213: 1602445010202415986
+    second: soldier 1_68
+  - first:
+      213: -6905116178582959481
+    second: soldier 1_69
+  - first:
+      213: 4114828677195714647
+    second: soldier 1_70
+  - first:
+      213: 1580171342322775609
+    second: soldier 1_71
+  - first:
+      213: 4327693100973737248
+    second: soldier 1_72
+  - first:
+      213: 479952031851400197
+    second: soldier 1_73
+  - first:
+      213: 4826216439133578206
+    second: soldier 1_74
+  - first:
+      213: -5435165649079198053
+    second: soldier 1_75
+  - first:
+      213: 1695513602389181488
+    second: soldier 1_76
+  - first:
+      213: 8272975079202435492
+    second: soldier 1_77
+  - first:
+      213: -747311216107922901
+    second: soldier 1_78
+  - first:
+      213: -3662531148240370074
+    second: soldier 1_79
+  - first:
+      213: 286472234068141983
+    second: soldier 1_80
+  - first:
+      213: -8705490805238672181
+    second: soldier 1_81
+  - first:
+      213: -7782950735514389823
+    second: soldier 1_82
+  - first:
+      213: -4887740490489258173
+    second: soldier 1_83
+  - first:
+      213: -5312774884240725887
+    second: soldier 1_84
+  - first:
+      213: 7328057103145509958
+    second: soldier 1_85
+  - first:
+      213: -1416783629832605089
+    second: soldier 1_86
+  - first:
+      213: -6405212782108782753
+    second: soldier 1_87
+  - first:
+      213: 8134115705208898487
+    second: soldier 1_88
+  - first:
+      213: -6946899386172098857
+    second: soldier 1_89
+  - first:
+      213: -5458243048881261262
+    second: soldier 1_90
+  - first:
+      213: 8403647273114142217
+    second: soldier 1_91
+  - first:
+      213: 2373961046941551856
+    second: soldier 1_92
+  - first:
+      213: -3064060167013440302
+    second: soldier 1_93
+  - first:
+      213: -100797334543358849
+    second: soldier 1_94
+  - first:
+      213: 5193502357705911642
+    second: soldier 1_95
+  - first:
+      213: -4275514263537312192
+    second: soldier 1_96
+  - first:
+      213: 2824810665621519959
+    second: soldier 1_97
+  - first:
+      213: -1628468215745362862
+    second: soldier 1_98
+  - first:
+      213: -7538876859801916497
+    second: soldier 1_99
+  - first:
+      213: -7457168966371103810
+    second: soldier 1_100
+  - first:
+      213: -8698021278253422501
+    second: soldier 1_101
+  - first:
+      213: -923373350663394633
+    second: soldier 1_102
+  - first:
+      213: -5900773849685012713
+    second: soldier 1_103
+  - first:
+      213: 4399860140678960026
+    second: soldier 1_104
+  - first:
+      213: 2291079879139008807
+    second: soldier 1_105
+  - first:
+      213: 6702559199416599344
+    second: soldier 1_106
+  - first:
+      213: -675718335375834771
+    second: soldier 1_107
+  - first:
+      213: -7265300656012787792
+    second: soldier 1_108
+  - first:
+      213: 972103070263641656
+    second: soldier 1_109
+  - first:
+      213: 2746604573195418486
+    second: soldier 1_110
+  - first:
+      213: -7781832605707147693
+    second: soldier 1_111
+  - first:
+      213: 431366086983082112
+    second: soldier 1_112
+  - first:
+      213: -8542632534503790494
+    second: soldier 1_113
+  - first:
+      213: 6180610055453918846
+    second: soldier 1_114
+  - first:
+      213: -7886362864696050399
+    second: soldier 1_115
+  - first:
+      213: 5875873276943813190
+    second: soldier 1_116
+  - first:
+      213: -169473948252044476
+    second: soldier 1_117
+  - first:
+      213: 7733368255888293631
+    second: soldier 1_118
+  - first:
+      213: 7014980614249835420
+    second: soldier 1_119
+  - first:
+      213: -6523655179638561338
+    second: soldier 1_120
+  - first:
+      213: 2443579373161090473
+    second: soldier 1_121
+  - first:
+      213: -5171819031814708257
+    second: soldier 1_122
+  - first:
+      213: 5229070660949868225
+    second: soldier 1_123
+  - first:
+      213: 2509988511748647099
+    second: soldier 1_124
+  - first:
+      213: -1984982770303610931
+    second: soldier 1_125
+  - first:
+      213: -5507670148588288486
+    second: soldier 1_126
+  - first:
+      213: 4550852897916272271
+    second: soldier 1_127
+  - first:
+      213: -4454245245390874605
+    second: soldier 1_128
+  - first:
+      213: -1923635993982381850
+    second: soldier 1_129
+  - first:
+      213: 7088297755093995295
+    second: soldier 1_130
+  - first:
+      213: -8112173761987982050
+    second: soldier 1_131
+  - first:
+      213: 4328401379223824767
+    second: soldier 1_132
+  - first:
+      213: -5565877177439818974
+    second: soldier 1_133
+  - first:
+      213: -3064821926442971768
+    second: soldier 1_134
+  - first:
+      213: 2725989533321680129
+    second: soldier 1_135
+  - first:
+      213: 5924543045441601657
+    second: soldier 1_136
+  - first:
+      213: 7922826831401451564
+    second: soldier 1_137
+  - first:
+      213: -3723992528062133250
+    second: soldier 1_138
+  - first:
+      213: -3261629073682041402
+    second: soldier 1_139
+  - first:
+      213: -5841593016012588925
+    second: soldier 1_140
+  - first:
+      213: -2597977488799848275
+    second: soldier 1_141
+  - first:
+      213: 9076843532932896673
+    second: soldier 1_142
+  - first:
+      213: -180445540975258047
+    second: soldier 1_143
+  - first:
+      213: 5472922174778398181
+    second: soldier 1_144
+  - first:
+      213: 2146426156815086879
+    second: soldier 1_145
+  - first:
+      213: -2213006237968645199
+    second: soldier 1_146
+  - first:
+      213: -853014015173560049
+    second: soldier 1_147
+  - first:
+      213: 700831498665120002
+    second: soldier 1_148
+  - first:
+      213: -6981486430916041748
+    second: soldier 1_149
+  - first:
+      213: -4484648827773351768
+    second: soldier 1_150
+  - first:
+      213: -2275265603759177739
+    second: soldier 1_151
+  - first:
+      213: 7023712326711821871
+    second: soldier 1_152
+  - first:
+      213: -7274159351251983550
+    second: soldier 1_153
+  - first:
+      213: 6561356934509511767
+    second: soldier 1_154
+  - first:
+      213: 6886854514022060729
+    second: soldier 1_155
+  - first:
+      213: -62243900450065849
+    second: soldier 1_156
+  - first:
+      213: -3672546356314555683
+    second: soldier 1_157
+  - first:
+      213: 9013924888320467886
+    second: soldier 1_158
+  - first:
+      213: -3572751331791381653
+    second: soldier 1_159
+  - first:
+      213: -2712615538583204694
+    second: soldier 1_160
+  - first:
+      213: 2858293380688163296
+    second: soldier 1_161
+  - first:
+      213: -232559378834081343
+    second: soldier 1_162
+  - first:
+      213: -4822269912007914085
+    second: soldier 1_163
+  - first:
+      213: 6387427071003304875
+    second: soldier 1_164
+  - first:
+      213: 1386738870142273625
+    second: soldier 1_165
+  - first:
+      213: 5457256324330970839
+    second: soldier 1_166
+  - first:
+      213: -8763971974111814836
+    second: soldier 1_167
+  - first:
+      213: -8072015908395820411
+    second: soldier 1_168
+  - first:
+      213: -8227169892349401834
+    second: soldier 1_169
+  - first:
+      213: 2598585775222696584
+    second: soldier 1_170
+  - first:
+      213: -853439955342447611
+    second: soldier 1_171
+  - first:
+      213: -6117785594767584223
+    second: soldier 1_172
+  - first:
+      213: -6432095762317816195
+    second: soldier 1_173
+  - first:
+      213: 1361487633383949198
+    second: soldier 1_174
+  - first:
+      213: -8202240903036560601
+    second: soldier 1_175
+  - first:
+      213: 8152069380841423290
+    second: soldier 1_176
+  - first:
+      213: 8454803010383528122
+    second: soldier 1_177
+  - first:
+      213: -7303284076382514801
+    second: soldier 1_178
+  - first:
+      213: -8522436290382103473
+    second: soldier 1_179
+  - first:
+      213: 1754389489383864163
+    second: soldier 1_180
+  - first:
+      213: 7695874960649338529
+    second: soldier 1_181
+  - first:
+      213: -2511542935278010759
+    second: soldier 1_182
+  - first:
+      213: 4384267990633941848
+    second: soldier 1_183
+  - first:
+      213: -1307411246017483720
+    second: soldier 1_184
+  - first:
+      213: -419468819666267853
+    second: soldier 1_185
+  - first:
+      213: -2040056093001540251
+    second: soldier 1_186
+  - first:
+      213: 1670836155699815855
+    second: soldier 1_187
+  - first:
+      213: 6203662753370401566
+    second: soldier 1_188
+  - first:
+      213: 6247527161457955417
+    second: soldier 1_189
+  - first:
+      213: 6956599284177967245
+    second: soldier 1_190
+  - first:
+      213: 461670124586427693
+    second: soldier 1_191
+  - first:
+      213: 8717661300136103872
+    second: soldier 1_192
+  - first:
+      213: 5427392449833977799
+    second: soldier 1_193
+  - first:
+      213: 4901380833426802171
+    second: soldier 1_194
+  - first:
+      213: 3802597484914238461
+    second: soldier 1_195
+  - first:
+      213: -9000054103673806610
+    second: soldier 1_196
+  - first:
+      213: 2588169820425439939
+    second: soldier 1_197
+  - first:
+      213: -3279225415569693566
+    second: soldier 1_198
+  - first:
+      213: -8339049115866730900
+    second: soldier 1_199
+  - first:
+      213: 7671378491333196834
+    second: soldier 1_200
+  - first:
+      213: 5505597311948242722
+    second: soldier 1_201
+  - first:
+      213: -790220445552559564
+    second: soldier 1_202
+  - first:
+      213: -3201672605224521607
+    second: soldier 1_203
+  - first:
+      213: 6259053106420553276
+    second: soldier 1_204
+  - first:
+      213: 4941385492419080863
+    second: soldier 1_205
+  - first:
+      213: -5940219021939262667
+    second: soldier 1_206
+  - first:
+      213: 1399615592953216017
+    second: soldier 1_207
+  - first:
+      213: -6344196726873634255
+    second: soldier 1_208
+  - first:
+      213: -2473394642471277241
+    second: soldier 1_209
+  - first:
+      213: 8781371530496658830
+    second: soldier 1_210
+  - first:
+      213: -4968350311577458294
+    second: soldier 1_211
+  - first:
+      213: 1751296676290777668
+    second: soldier 1_212
+  - first:
+      213: 4130338917845370309
+    second: soldier 1_213
+  - first:
+      213: 696179693458685574
+    second: soldier 1_214
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: soldier 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bd6a6b37de505a0800000000000000
+      internalID: -6555572601326478538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 124
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096dd3533490f73a0800000000000000
+      internalID: -6665598739224340848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 124
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb5ef4ce8f2dfd20800000000000000
+      internalID: 3313857191051418555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 124
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278428373fe5e2100800000000000000
+      internalID: 85109842674600050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 124
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8c7c877ebe9aac0800000000000000
+      internalID: -3843281427587675960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 124
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3feb6989402adc4c0800000000000000
+      internalID: -4265575131426406669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 124
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253252adf183bedb0800000000000000
+      internalID: -4761650471559158958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 124
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5da2f8e916575aa0800000000000000
+      internalID: -6172370095005586085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555175431e99b60f0800000000000000
+      internalID: -1122634489573993131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 62
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e76ae8692ca20c0800000000000000
+      internalID: -4599650117511381504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 62
+        width: 42
+        height: 62
+      alignment: 9
+      pivot: {x: 0.38027155, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920a2ff79fa03c630800000000000000
+      internalID: 3946009765216428073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 62
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74ba5467b56617d0800000000000000
+      internalID: -2948057067730324354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 62
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d325f4eedda3dc0800000000000000
+      internalID: -3658367731682362037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 62
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8564e6f8a4d90b10800000000000000
+      internalID: 1948322135976207759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 62
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8165fcec4ef110cf0800000000000000
+      internalID: -287913833592302056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_15
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 62
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c9f132023f45070800000000000000
+      internalID: 8094361749645401121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b49f826dc07dea0800000000000000
+      internalID: -5848191477167338687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ab8695ea052a6e0800000000000000
+      internalID: -1827809789004432769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8cf11a4afe51fc0800000000000000
+      internalID: -3524647642990655320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_19
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5331ca5bcb5635690800000000000000
+      internalID: -7614630683777166539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6f9354586532420800000000000000
+      internalID: 2604020139942344443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_21
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb0a95c1feb88290800000000000000
+      internalID: -7887844801727820859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier 1_23
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271b820033b30de20800000000000000
+      internalID: 3373261211132539250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      soldier 1_0: -6555572601326478538
+      soldier 1_1: -6665598739224340848
+      soldier 1_10: 3946009765216428073
+      soldier 1_11: -2948057067730324354
+      soldier 1_12: -3658367731682362037
+      soldier 1_13: 1948322135976207759
+      soldier 1_14: -287913833592302056
+      soldier 1_15: 8094361749645401121
+      soldier 1_16: -5848191477167338687
+      soldier 1_17: -1827809789004432769
+      soldier 1_18: -3524647642990655320
+      soldier 1_19: -7614630683777166539
+      soldier 1_2: 3313857191051418555
+      soldier 1_20: 2604020139942344443
+      soldier 1_21: -7887844801727820859
+      soldier 1_23: 3373261211132539250
+      soldier 1_3: 85109842674600050
+      soldier 1_4: -3843281427587675960
+      soldier 1_5: -4265575131426406669
+      soldier 1_6: -4761650471559158958
+      soldier 1_7: -6172370095005586085
+      soldier 1_8: -1122634489573993131
+      soldier 1_9: -4599650117511381504
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
