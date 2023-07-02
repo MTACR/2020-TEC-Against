@@ -324,7 +324,7 @@ TextureImporter:
       213: 1945945290926882037
     second: signs_106
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -341,9 +341,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -353,11 +356,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -375,10 +378,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -390,6 +398,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -402,6 +411,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -414,6 +424,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -426,6 +437,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2688,9 +2713,116 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      signs_0: 1014312589259936113
+      signs_1: 7774597396905839976
+      signs_10: -3541654970036748001
+      signs_100: 7577387145953499192
+      signs_101: 3436095453491771432
+      signs_102: -3472474637215854144
+      signs_103: -4097507163045858101
+      signs_104: -5847225975162281724
+      signs_105: -5992317339097856308
+      signs_106: 1945945290926882037
+      signs_11: -2937953654953323102
+      signs_12: -7676459032210541816
+      signs_13: 9028995407489031984
+      signs_14: -4734474400522991982
+      signs_15: -3327347804532630309
+      signs_16: 8989209993648422680
+      signs_17: -6277811909480139968
+      signs_18: -4988363115180192691
+      signs_19: 4569824791384506745
+      signs_2: 7143536599680955399
+      signs_20: -4192766365435336363
+      signs_21: -5916734419976646268
+      signs_22: -7322962490421752431
+      signs_23: 3671248769266048807
+      signs_24: -8608232634064206986
+      signs_25: -3665671028337353499
+      signs_26: 5015498531010594062
+      signs_27: 5620976386525421396
+      signs_28: 2945347106008647225
+      signs_29: -3063845900688664062
+      signs_3: -6303612653606922692
+      signs_30: -1244585338157411529
+      signs_31: -4321936792142771793
+      signs_32: -369177047715181561
+      signs_33: 418409284636949591
+      signs_34: -5415589879563419706
+      signs_35: 3944510060147985840
+      signs_36: 1800573500578985294
+      signs_37: -8297076457979201443
+      signs_38: 5130029373405344370
+      signs_39: 3065104238847193975
+      signs_4: -3183823387430515487
+      signs_40: 7154421294936873344
+      signs_41: 4910537862728417346
+      signs_42: 8859209908132867061
+      signs_43: 7397917478971115924
+      signs_44: 3131008065967647366
+      signs_45: 6185240507717342421
+      signs_46: -8680152858494234359
+      signs_47: -1634018318067437050
+      signs_48: 6402988787640814689
+      signs_49: 7392258773011536883
+      signs_5: -520509936069157319
+      signs_50: -3911939856565948285
+      signs_51: 1047692908759079729
+      signs_52: 6613750488676328117
+      signs_53: 8651247129724533341
+      signs_54: 2744701099937165525
+      signs_55: 8935876418048404223
+      signs_56: 7589669719618813507
+      signs_57: -3430308600397338882
+      signs_58: 949374978589406696
+      signs_59: -4664036188166718766
+      signs_6: 570369605437288408
+      signs_60: 8809982172501351926
+      signs_61: -7323069571618521769
+      signs_62: 9194869304285766808
+      signs_63: 9209562244475124898
+      signs_64: -4980788425398224518
+      signs_65: 4554918502920573707
+      signs_66: 4414449076814597546
+      signs_67: 111682683377648824
+      signs_68: -4774517638177284504
+      signs_69: -6582914142388264275
+      signs_7: -7118366140832251292
+      signs_70: -9054101142052482967
+      signs_71: -6077654005219458195
+      signs_72: -8207945630517408676
+      signs_73: 7832627956716485771
+      signs_74: 7113494343148784552
+      signs_75: 9195783757079098209
+      signs_76: 297199518564980065
+      signs_77: 5021255901001755734
+      signs_78: -3029715886791169430
+      signs_79: -1987622289840729586
+      signs_8: -6177745668595045113
+      signs_80: 96743808795160929
+      signs_81: 1751378513807677693
+      signs_82: -3030940541440290023
+      signs_83: -7074862083355412620
+      signs_84: -881303079527303934
+      signs_85: 2303259579048052038
+      signs_86: 21489727507269357
+      signs_87: 2812998661077818308
+      signs_88: -309397736924784199
+      signs_89: -6710771942544235017
+      signs_9: -4015053110850514199
+      signs_90: -7153561455755259665
+      signs_91: -1906363370369724790
+      signs_92: -592542582601700726
+      signs_93: 6333948880467939796
+      signs_94: -7011588920044378604
+      signs_95: -1818948800251217035
+      signs_96: 2860438090726389406
+      signs_97: 8341371211254620822
+      signs_98: 381647622740776174
+      signs_99: 9128740877484451375
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 1
-  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 

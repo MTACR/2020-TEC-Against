@@ -621,7 +621,7 @@ TextureImporter:
       213: 7925456986461525429
     second: NES_contra_enemies_205
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -638,9 +638,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -650,8 +653,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -672,10 +675,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -687,6 +695,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -699,6 +708,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -711,6 +721,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -723,6 +734,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4728,9 +4753,199 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      NES_contra_enemies_0: 6889437787313274444
+      NES_contra_enemies_1: -7624084329945874369
+      NES_contra_enemies_10: -1449613508728070267
+      NES_contra_enemies_100: 1498798125334195175
+      NES_contra_enemies_101: -8323819263857512563
+      NES_contra_enemies_102: 3312376098840271335
+      NES_contra_enemies_103: -1327435728037462703
+      NES_contra_enemies_104: -2920812542847538167
+      NES_contra_enemies_105: 4457810591707631332
+      NES_contra_enemies_106: -2281481087267586473
+      NES_contra_enemies_107: -3081277370725777535
+      NES_contra_enemies_108: 4664161259832977746
+      NES_contra_enemies_109: 5948597638341934493
+      NES_contra_enemies_11: -2974042352950513775
+      NES_contra_enemies_110: -8092053662138212022
+      NES_contra_enemies_111: 786852121183701521
+      NES_contra_enemies_112: 5804908603744553194
+      NES_contra_enemies_113: 4050455234219434777
+      NES_contra_enemies_114: -7877221806109070251
+      NES_contra_enemies_115: -8429987672938323235
+      NES_contra_enemies_116: 2477811611222121725
+      NES_contra_enemies_117: 6235082876703640301
+      NES_contra_enemies_118: 2985226589772411673
+      NES_contra_enemies_119: -3940167824637028668
+      NES_contra_enemies_12: 6177335285047666396
+      NES_contra_enemies_120: 1619438232340595020
+      NES_contra_enemies_121: 8815663636375763132
+      NES_contra_enemies_122: -4111708565355704662
+      NES_contra_enemies_123: 7225811949737234294
+      NES_contra_enemies_124: 1599289289913793339
+      NES_contra_enemies_125: -1111732519946910834
+      NES_contra_enemies_126: -8437517078338941577
+      NES_contra_enemies_127: -6798881934957823397
+      NES_contra_enemies_128: 8247419238090369598
+      NES_contra_enemies_129: -5992576452452132455
+      NES_contra_enemies_13: 8525580951836248538
+      NES_contra_enemies_130: -9145081514757301940
+      NES_contra_enemies_131: 6403130323366908088
+      NES_contra_enemies_132: -3393352015632801620
+      NES_contra_enemies_133: 7330554585133041737
+      NES_contra_enemies_134: 2394093311143569448
+      NES_contra_enemies_135: 6462343512714046771
+      NES_contra_enemies_136: -8201853098282740295
+      NES_contra_enemies_137: 6852846306077230970
+      NES_contra_enemies_138: 4556055106008210742
+      NES_contra_enemies_139: 1849579087922660501
+      NES_contra_enemies_14: -7712305710659746322
+      NES_contra_enemies_140: 6298643703312280951
+      NES_contra_enemies_141: -3190168636645725330
+      NES_contra_enemies_142: -8888552714086174302
+      NES_contra_enemies_143: -4984688722928997283
+      NES_contra_enemies_144: 1714179753976749031
+      NES_contra_enemies_145: 268676102778729108
+      NES_contra_enemies_147: 5618960396560120881
+      NES_contra_enemies_148: 1626712046214514705
+      NES_contra_enemies_149: -3173550814230386874
+      NES_contra_enemies_15: 1078302591088581159
+      NES_contra_enemies_150: 6764520620913544632
+      NES_contra_enemies_151: 9190951765386961669
+      NES_contra_enemies_153: 6350712716906767399
+      NES_contra_enemies_154: 8523136178113722988
+      NES_contra_enemies_155: 7940269806550020108
+      NES_contra_enemies_16: -3802032046844490932
+      NES_contra_enemies_162: 7094103244684916041
+      NES_contra_enemies_163: 9135977033699342632
+      NES_contra_enemies_164: 1360564677580760900
+      NES_contra_enemies_165: 3570078052056312846
+      NES_contra_enemies_166: -1554080756674512150
+      NES_contra_enemies_167: 4732759396486649345
+      NES_contra_enemies_168: 4781441131865713712
+      NES_contra_enemies_169: 6144552421556199039
+      NES_contra_enemies_17: 2541000067362538578
+      NES_contra_enemies_170: 9102598455525771976
+      NES_contra_enemies_171: -8387291994409999426
+      NES_contra_enemies_172: 2273224766073567199
+      NES_contra_enemies_173: -2632507829739747138
+      NES_contra_enemies_174: 5755996832136363631
+      NES_contra_enemies_175: -1798534622322771743
+      NES_contra_enemies_176: 793362730096362359
+      NES_contra_enemies_177: -4529587698687382788
+      NES_contra_enemies_178: -8866232473005994703
+      NES_contra_enemies_179: -8921205765604469066
+      NES_contra_enemies_18: -4646310858812523170
+      NES_contra_enemies_180: -2412850572678681735
+      NES_contra_enemies_181: -1795446860098505469
+      NES_contra_enemies_182: 2781065215201048143
+      NES_contra_enemies_183: -8640145253282655126
+      NES_contra_enemies_184: -8299899785158530702
+      NES_contra_enemies_185: 7698608643317013256
+      NES_contra_enemies_187: -7799242421812689134
+      NES_contra_enemies_188: -7039215444801591164
+      NES_contra_enemies_189: -9189400815711822603
+      NES_contra_enemies_19: 2872933928470303296
+      NES_contra_enemies_192: -2695639910534920893
+      NES_contra_enemies_193: 1740039120388472962
+      NES_contra_enemies_194: -847446916027367136
+      NES_contra_enemies_195: 2377414925497306460
+      NES_contra_enemies_196: -4366686689551586297
+      NES_contra_enemies_197: 6358716230168295424
+      NES_contra_enemies_199: 6125623715508733705
+      NES_contra_enemies_2: 419652762283999431
+      NES_contra_enemies_200: 9140413419854048444
+      NES_contra_enemies_201: 1307647463369658949
+      NES_contra_enemies_202: 2394480575949316065
+      NES_contra_enemies_21: -6878064730893129429
+      NES_contra_enemies_22: -937199237349262411
+      NES_contra_enemies_23: -2330328939857850167
+      NES_contra_enemies_24: 2669275822180000030
+      NES_contra_enemies_25: -2780625066448679423
+      NES_contra_enemies_26: 7073024016660786707
+      NES_contra_enemies_27: 507312147936228839
+      NES_contra_enemies_28: 6205106171045293695
+      NES_contra_enemies_29: -7598271153575360541
+      NES_contra_enemies_3: 464872600965383920
+      NES_contra_enemies_30: -1430989477899472855
+      NES_contra_enemies_31: 8017748509540142486
+      NES_contra_enemies_32: 4664936639977628361
+      NES_contra_enemies_33: 131215892430686866
+      NES_contra_enemies_34: -7877292906011370623
+      NES_contra_enemies_35: -5155285610373541887
+      NES_contra_enemies_36: 3984848788618955576
+      NES_contra_enemies_37: -932727549588407959
+      NES_contra_enemies_38: 497967275092274880
+      NES_contra_enemies_39: 5792918044808452825
+      NES_contra_enemies_4: -7214591625194486977
+      NES_contra_enemies_40: 5074874916742070025
+      NES_contra_enemies_41: -8212524831426962675
+      NES_contra_enemies_42: -350676568592758644
+      NES_contra_enemies_43: -4807349782985852799
+      NES_contra_enemies_44: 8477266025570797415
+      NES_contra_enemies_45: 470733916826592118
+      NES_contra_enemies_46: 958169142175714036
+      NES_contra_enemies_47: 8733691572801373143
+      NES_contra_enemies_48: -1381389824938744569
+      NES_contra_enemies_49: -4629904543663436653
+      NES_contra_enemies_5: -7729536848943337611
+      NES_contra_enemies_50: 7160771865132854537
+      NES_contra_enemies_51: -7291200044000034057
+      NES_contra_enemies_52: 2619340757392984216
+      NES_contra_enemies_53: -3555617978517674832
+      NES_contra_enemies_54: 4777568833576396398
+      NES_contra_enemies_55: -4234184727782359346
+      NES_contra_enemies_56: -4367902633853842083
+      NES_contra_enemies_57: -2216157170476744131
+      NES_contra_enemies_58: -8413515054240510056
+      NES_contra_enemies_59: -5101581717614648751
+      NES_contra_enemies_6: -9220379489200732551
+      NES_contra_enemies_60: -7101549437940678213
+      NES_contra_enemies_61: -3026164200355001517
+      NES_contra_enemies_62: -4031964315311316991
+      NES_contra_enemies_63: -4391587331095040478
+      NES_contra_enemies_64: 3917991936745686265
+      NES_contra_enemies_65: -2897372839789191082
+      NES_contra_enemies_66: 4543763573043188403
+      NES_contra_enemies_67: -8127897536390092802
+      NES_contra_enemies_68: -4423755461069134485
+      NES_contra_enemies_69: -7982594055791183158
+      NES_contra_enemies_7: -1699798156017573544
+      NES_contra_enemies_70: -5300541275530967003
+      NES_contra_enemies_71: 5353655367571454754
+      NES_contra_enemies_72: 7935196757430481353
+      NES_contra_enemies_73: 2817312377117146184
+      NES_contra_enemies_74: 3346169147836299670
+      NES_contra_enemies_75: 5620430576438299483
+      NES_contra_enemies_76: -4640283263111696064
+      NES_contra_enemies_77: -698087930973269434
+      NES_contra_enemies_78: 2623756423514646755
+      NES_contra_enemies_79: 5100884902734328563
+      NES_contra_enemies_8: 8396319362017248305
+      NES_contra_enemies_80: 3948657681160604093
+      NES_contra_enemies_81: 5352861490702328042
+      NES_contra_enemies_82: 9218779071791018682
+      NES_contra_enemies_83: -498880245149204484
+      NES_contra_enemies_84: -8640660053382258264
+      NES_contra_enemies_85: 1844207267192880707
+      NES_contra_enemies_86: -3633980855897183797
+      NES_contra_enemies_87: 4677776755948199965
+      NES_contra_enemies_88: -285782037674026987
+      NES_contra_enemies_89: 6444441383912433693
+      NES_contra_enemies_9: -4343052788160598147
+      NES_contra_enemies_90: 4081257860535688150
+      NES_contra_enemies_91: 1645722003275432010
+      NES_contra_enemies_92: 3039915053909684739
+      NES_contra_enemies_93: 7024915124718389786
+      NES_contra_enemies_94: 3547307847380877878
+      NES_contra_enemies_95: 1341346065968110516
+      NES_contra_enemies_96: -2672894643625554058
+      NES_contra_enemies_97: -626873389499293506
+      NES_contra_enemies_98: 4524183438569782206
+      NES_contra_enemies_99: -7842368824682226955
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
