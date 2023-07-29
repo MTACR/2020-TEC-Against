@@ -10,21 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5a15754f8fe4146acd96f93fc7abcf0, type: 3}
-  m_Name: Cross
+  m_Name: Top T
   m_EditorClassIdentifier: 
   top:
-  - {fileID: 11400000}
-  - {fileID: 11400000, guid: be044780b80b1114d857b470811984a9, type: 2}
-  - {fileID: 11400000, guid: b225f7c2b4f374347a4a21006e3e1585, type: 2}
+  - {fileID: 11400000, guid: 7c1b5500bcf3f504ba6376a078046d81, type: 2}
   bottom:
-  - {fileID: 11400000}
   - {fileID: 11400000, guid: be044780b80b1114d857b470811984a9, type: 2}
+  - {fileID: 11400000, guid: 61f9ed8186568cb458fd5493512cff8c, type: 2}
   left:
   - {fileID: 11400000}
+  - {fileID: 11400000, guid: 61f9ed8186568cb458fd5493512cff8c, type: 2}
   - {fileID: 11400000, guid: 7c1b5500bcf3f504ba6376a078046d81, type: 2}
-  - {fileID: 11400000, guid: b225f7c2b4f374347a4a21006e3e1585, type: 2}
   right:
   - {fileID: 11400000}
+  - {fileID: 11400000, guid: 61f9ed8186568cb458fd5493512cff8c, type: 2}
   - {fileID: 11400000, guid: 7c1b5500bcf3f504ba6376a078046d81, type: 2}
-  - {fileID: 11400000, guid: b225f7c2b4f374347a4a21006e3e1585, type: 2}
-  sprite: {fileID: -5500104504829777786, guid: d7faffba6005b794caeede884b29729c, type: 3}
+  sprite: {fileID: 6460112820247260808, guid: d7faffba6005b794caeede884b29729c, type: 3}

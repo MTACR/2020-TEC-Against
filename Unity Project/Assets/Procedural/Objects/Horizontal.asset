@@ -16,10 +16,13 @@ MonoBehaviour:
   - {fileID: 11400000}
   bottom:
   - {fileID: 11400000}
+  - {fileID: 11400000, guid: b225f7c2b4f374347a4a21006e3e1585, type: 2}
   left:
   - {fileID: 11400000}
   - {fileID: 11400000, guid: 61f9ed8186568cb458fd5493512cff8c, type: 2}
+  - {fileID: 11400000, guid: b225f7c2b4f374347a4a21006e3e1585, type: 2}
   right:
   - {fileID: 11400000}
   - {fileID: 11400000, guid: 61f9ed8186568cb458fd5493512cff8c, type: 2}
+  - {fileID: 11400000, guid: b225f7c2b4f374347a4a21006e3e1585, type: 2}
   sprite: {fileID: -2882129097726382415, guid: d7faffba6005b794caeede884b29729c, type: 3}
