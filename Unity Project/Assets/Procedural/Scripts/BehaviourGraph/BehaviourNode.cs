@@ -1,4 +1,5 @@
-﻿using UnityEditor.Experimental.GraphView;
+﻿using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 namespace Procedural.Scripts.BehaviourGraph
@@ -15,5 +16,9 @@ namespace Procedural.Scripts.BehaviourGraph
     public abstract void BuildNodeView(Node node);
     public abstract Edge ConnectNodeView(string relation, BehaviourNode node);
     public abstract Port GetPort(string relation);
-    }
+    public abstract List<BehaviourNode> GetRelations(string relation);
+    public abstract Dictionary<string, List<BehaviourNode>> GetRelations();
+    public abstract void AddRelation(string relation, BehaviourNode node);
+    public abstract void RemoveRelation(string relation, BehaviourNode node);
+  }
 }

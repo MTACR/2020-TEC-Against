@@ -109,7 +109,6 @@ namespace Procedural.Editor.BehaviourGraph.Views
       return ports
         .ToList()
         .Where(endPort => endPort.direction != startPort.direction
-                          && endPort.node != startPort.node
                           && endPort.orientation == startPort.orientation)
         .ToList();
     }
@@ -134,6 +133,8 @@ namespace Procedural.Editor.BehaviourGraph.Views
               _tree.RemoveRelation(relation, a.Node, b.Node);
             }
           }
+          
+          AssetDatabase.SaveAssets();
         }
       }
 
@@ -148,6 +149,8 @@ namespace Procedural.Editor.BehaviourGraph.Views
             _tree.AddRelation(relation, a.Node, b.Node);
           }
         }
+        
+        AssetDatabase.SaveAssets();
       }
 
       return graphViewChange;

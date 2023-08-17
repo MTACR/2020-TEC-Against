@@ -7,7 +7,7 @@ namespace Procedural.Scripts.WaveFunction.Pipes
 {
   public class PipeWaveFunction : MonoBehaviour
   {
-    [SerializeField] private List<WaveNode> possibilities;
+    [SerializeField] private WaveTree waveTree;
     [SerializeField] private SpriteRenderer pipePrefab;
     [SerializeField] private Sprite emptyPrefab;
     [SerializeField] [Range(0, 1)] private float collapseSpeed;
@@ -40,7 +40,7 @@ namespace Procedural.Scripts.WaveFunction.Pipes
             new PipeWaveState(
               _states,
               new Vector2(_x, j),
-              possibilities,
+              waveTree,
               Instantiate(
                 pipePrefab,
                 new Vector3(_x, j, 0),

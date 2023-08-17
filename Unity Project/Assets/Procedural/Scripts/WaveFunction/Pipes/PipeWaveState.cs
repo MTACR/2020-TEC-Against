@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using Procedural.Scripts.BehaviourGraph;
 using UnityEngine;
 
 namespace Procedural.Scripts.WaveFunction.Pipes
@@ -10,9 +12,9 @@ namespace Procedural.Scripts.WaveFunction.Pipes
     public PipeWaveState(
       List<WaveState> states,
       Vector2 position,
-      IEnumerable<WaveNode> possibilities,
+      BehaviourTree behaviourTree,
       SpriteRenderer renderer
-    ) : base(states, position, possibilities)
+    ) : base(states, position, behaviourTree.nodes.Cast<WaveNode>().ToList())
     {
       _renderer = renderer;
     }

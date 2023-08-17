@@ -213,11 +213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4934dfd2632a4b92b5a334c723cf4b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  possibilities:
-  - {fileID: 11400000, guid: 61f9ed8186568cb458fd5493512cff8c, type: 2}
-  - {fileID: 11400000, guid: 7c1b5500bcf3f504ba6376a078046d81, type: 2}
-  - {fileID: 11400000, guid: be044780b80b1114d857b470811984a9, type: 2}
-  - {fileID: 11400000, guid: b225f7c2b4f374347a4a21006e3e1585, type: 2}
+  waveTree: {fileID: 11400000, guid: 68903ed468ca26a43b4d022f302077b0, type: 2}
   pipePrefab: {fileID: 2172415623911920892, guid: fc170f28e07205e47ac280578f3333b3,
     type: 3}
   emptyPrefab: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}

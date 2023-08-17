@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using Procedural.Scripts.BehaviourGraph;
-using Procedural.Scripts.DataStructure;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
@@ -12,34 +11,32 @@ namespace Procedural.Scripts.WaveFunction
   {
     public override void AddRelation(string relation, BehaviourNode a, BehaviourNode b)
     {
-      if (a is WaveNode nodeA && b is WaveNode nodeB)
-      {
-        var invRelation = WaveNode.InvRelation(relation);
+      if (a is not WaveNode nodeA || b is not WaveNode nodeB) return;
+      
+      var invRelation = WaveNode.InvRelation(relation);
         
-        nodeA.relations[relation].Add(nodeB);
-        nodeB.relations[invRelation].Add(nodeA);
-      }
+      nodeA.AddRelation(relation, nodeB);
+      nodeB.AddRelation(invRelation, nodeA);
     }
 
     public override void RemoveRelation(string relation, BehaviourNode a, BehaviourNode b)
     {
-      if (a is WaveNode nodeA && b is WaveNode nodeB)
-      {
-        var invRelation = WaveNode.InvRelation(relation);
+      if (a is not WaveNode nodeA || b is not WaveNode nodeB) return;
+      
+      var invRelation = WaveNode.InvRelation(relation);
         
-        nodeA.relations[relation].Remove(nodeB);
-        nodeB.relations[invRelation].Remove(nodeA);
-      }
+      nodeA.RemoveRelation(relation, nodeB);
+      nodeB.RemoveRelation(invRelation, nodeA);
     }
 
-    public override Dictionary<string, List<WaveNode>> GetRelations<T>(T node)
+    public override Dictionary<string, List<BehaviourNode>> GetRelations(BehaviourNode node)
     {
       if (node is WaveNode wave)
       {
-        return wave.relations;
+        return wave.GetRelations();
       }
 
-      return new Dictionary<string, List<WaveNode>>();
+      return new Dictionary<string, List<BehaviourNode>>();
     }
 
     /*

@@ -17,7 +17,7 @@ namespace Procedural.Scripts.WaveFunction
     public int Entropy => _possibilities.Count;
     protected ReadOnlyCollection<WaveNode> Possibilities => _possibilities.AsReadOnly();
 
-    protected WaveState(List<WaveState> states, Vector2 position, IEnumerable<WaveNode> possibilities)
+    protected WaveState(List<WaveState> states, Vector2 position, List<WaveNode> possibilities)
     {
       _states = states;
       _position = position;
@@ -39,7 +39,7 @@ namespace Procedural.Scripts.WaveFunction
 
       foreach (var possibility in _possibilities.ToList())
       {
-        if (possibility.name != best.name)
+        if (possibility.guid != best.guid)
         {
           _possibilities.Remove(possibility);
         }

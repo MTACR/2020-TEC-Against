@@ -1,7 +1,6 @@
-using System;
 using System.Collections.Generic;
+using System.Linq;
 using Procedural.Scripts.BehaviourGraph;
-using Procedural.Scripts.DataStructure;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
@@ -9,32 +8,30 @@ namespace Procedural.Scripts.WaveFunction
 {
   public class WaveNode : BehaviourNode
   {
-    public Dictionary<string, List<WaveNode>> relations = new()
-    {
-      { "TOP", new List<WaveNode>() },
-      { "BOTTOM", new List<WaveNode>() },
-      { "LEFT", new List<WaveNode>() },
-      { "RIGHT", new List<WaveNode>() },
-    };
+    [SerializeField] private List<WaveNode> topNodes;
+    [SerializeField] private List<WaveNode> bottomNodes;
+    [SerializeField] private List<WaveNode> leftNodes;
+    [SerializeField] private List<WaveNode> rightNodes;
 
-    private Port _top;
-    private Port _bottom;
-    private Port _left;
-    private Port _right;
+    private Port _topPort;
+    private Port _bottomPort;
+    private Port _leftPort;
+    private Port _rightPort;
+
     public Sprite sprite;
 
     /*
      * Check whether a wave, in some direction relative to another wave,
      * has at least one valid property.
      */
-    public static bool IsCompatible<T>(List<T> neighborOptions, T option, WavePosition position) where T : WaveNode
+    public static bool IsCompatible(List<WaveNode> neighborOptions, WaveNode option, WavePosition position)
     {
       return position switch
       {
-        WavePosition.TOP => Intersects(neighborOptions, option.relations["TOP"]),
-        WavePosition.BOTTOM => Intersects(neighborOptions, option.relations["BOTTOM"]),
-        WavePosition.LEFT => Intersects(neighborOptions, option.relations["LEFT"]),
-        WavePosition.RIGHT => Intersects(neighborOptions, option.relations["RIGHT"]),
+        WavePosition.TOP => Intersects(neighborOptions, option.topNodes),
+        WavePosition.BOTTOM => Intersects(neighborOptions, option.bottomNodes),
+        WavePosition.LEFT => Intersects(neighborOptions, option.leftNodes),
+        WavePosition.RIGHT => Intersects(neighborOptions, option.rightNodes),
         _ => false
       };
     }
@@ -43,7 +40,7 @@ namespace Procedural.Scripts.WaveFunction
      * True if there is an intersection of rules,
      * i.e there is at least one rule compatible
      */
-    private static bool Intersects<T>(List<T> neighborOptions, List<WaveNode> options) where T : WaveNode
+    private static bool Intersects(List<WaveNode> neighborOptions, List<WaveNode> options)
     {
       return neighborOptions.Count == 0 || neighborOptions.Exists(aa => options.Exists(bb => aa.guid == bb.guid));
     }
@@ -78,31 +75,31 @@ namespace Procedural.Scripts.WaveFunction
 
     public override void BuildNodeView(Node node)
     {
-      _top = Port.Create<Edge>(Orientation.Vertical, Direction.Input, Port.Capacity.Multi, typeof(bool));
-      _bottom = Port.Create<Edge>(Orientation.Vertical, Direction.Output, Port.Capacity.Multi, typeof(bool));
-      _left = Port.Create<Edge>(Orientation.Horizontal, Direction.Input, Port.Capacity.Multi, typeof(bool));
-      _right = Port.Create<Edge>(Orientation.Horizontal, Direction.Output, Port.Capacity.Multi, typeof(bool));
+      _topPort = Port.Create<Edge>(Orientation.Vertical, Direction.Input, Port.Capacity.Multi, typeof(bool));
+      _bottomPort = Port.Create<Edge>(Orientation.Vertical, Direction.Output, Port.Capacity.Multi, typeof(bool));
+      _leftPort = Port.Create<Edge>(Orientation.Horizontal, Direction.Input, Port.Capacity.Multi, typeof(bool));
+      _rightPort = Port.Create<Edge>(Orientation.Horizontal, Direction.Output, Port.Capacity.Multi, typeof(bool));
 
-      _top.portColor = Color.blue;
-      _bottom.portColor = Color.blue;
-      _left.portColor = Color.red;
-      _right.portColor = Color.red;
+      _topPort.portColor = Color.blue;
+      _bottomPort.portColor = Color.blue;
+      _leftPort.portColor = Color.red;
+      _rightPort.portColor = Color.red;
 
-      _top.portName = "TOP";
-      _bottom.portName = "BOTTOM";
-      _left.portName = "LEFT";
-      _right.portName = "RIGHT";
+      _topPort.portName = "TOP";
+      _bottomPort.portName = "BOTTOM";
+      _leftPort.portName = "LEFT";
+      _rightPort.portName = "RIGHT";
 
-      node.topContainer.Add(_top);
-      node.inputContainer.Add(_left);
-      node.mainContainer.Add(_bottom);
-      node.outputContainer.Add(_right);
+      node.topContainer.Add(_topPort);
+      node.inputContainer.Add(_leftPort);
+      node.mainContainer.Add(_bottomPort);
+      node.outputContainer.Add(_rightPort);
     }
 
     public override Edge ConnectNodeView(string relation, BehaviourNode node)
     {
       if (node is not WaveNode) return null;
-      
+
       var invRelation = InvRelation(relation);
 
       return GetPort(relation).ConnectTo(node.GetPort(invRelation));
@@ -112,14 +109,81 @@ namespace Procedural.Scripts.WaveFunction
     {
       return relation switch
       {
-        "TOP" => _top,
-        "BOTTOM" => _bottom,
-        "LEFT" => _left,
-        "RIGHT" => _right,
+        "TOP" => _topPort,
+        "BOTTOM" => _bottomPort,
+        "LEFT" => _leftPort,
+        "RIGHT" => _rightPort,
         _ => null
       };
     }
-    
+
+    public override List<BehaviourNode> GetRelations(string relation)
+    {
+      return relation switch
+      {
+        "TOP" => topNodes.Cast<BehaviourNode>().ToList(),
+        "BOTTOM" => bottomNodes.Cast<BehaviourNode>().ToList(),
+        "LEFT" => leftNodes.Cast<BehaviourNode>().ToList(),
+        "RIGHT" => rightNodes.Cast<BehaviourNode>().ToList(),
+        _ => null
+      };
+    }
+
+    public override Dictionary<string, List<BehaviourNode>> GetRelations()
+    {
+      return new Dictionary<string, List<BehaviourNode>>
+      {
+        { "TOP", topNodes.Cast<BehaviourNode>().ToList() },
+        { "BOTTOM", bottomNodes.Cast<BehaviourNode>().ToList() },
+        { "LEFT", leftNodes.Cast<BehaviourNode>().ToList() },
+        { "RIGHT", rightNodes.Cast<BehaviourNode>().ToList() },
+      };
+    }
+
+    public override void AddRelation(string relation, BehaviourNode node)
+    {
+      switch (relation)
+      {
+        case "TOP":
+          topNodes.Add(node as WaveNode);
+          break;
+
+        case "BOTTOM":
+          bottomNodes.Add(node as WaveNode);
+          break;
+
+        case "LEFT":
+          leftNodes.Add(node as WaveNode);
+          break;
+
+        case "RIGHT":
+          rightNodes.Add(node as WaveNode);
+          break;
+      }
+    }
+
+    public override void RemoveRelation(string relation, BehaviourNode node)
+    {
+      switch (relation)
+      {
+        case "TOP":
+          topNodes.Remove(node as WaveNode);
+          break;
+
+        case "BOTTOM":
+          bottomNodes.Remove(node as WaveNode);
+          break;
+
+        case "LEFT":
+          leftNodes.Remove(node as WaveNode);
+          break;
+
+        case "RIGHT":
+          rightNodes.Remove(node as WaveNode);
+          break;
+      }
+    }
+
     public static string InvRelation(string relation)
     {
       return relation switch

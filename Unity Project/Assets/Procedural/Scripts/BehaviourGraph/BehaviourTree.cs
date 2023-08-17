@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using Procedural.Scripts.DataStructure;
 using Procedural.Scripts.WaveFunction;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
@@ -41,7 +40,7 @@ namespace Procedural.Scripts.BehaviourGraph
 
     public abstract void AddRelation(string relation, BehaviourNode a, BehaviourNode b);
     public abstract void RemoveRelation(string relation, BehaviourNode a, BehaviourNode b);
-    public abstract Dictionary<string, List<WaveNode>> GetRelations<T>(T node) where T : BehaviourNode;
+    public abstract Dictionary<string, List<BehaviourNode>> GetRelations(BehaviourNode node);
     public abstract string GetRelation(Edge edge);
     public abstract Type GetNodeType();
   }
