@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Procedural.Scripts.WaveFunction.Waves
+namespace Procedural.Scripts.WaveFunction
 {
-  public class WaveFunction<T> where T : WaveProperty 
+  public class WaveFunction
   {
     private readonly Func<Vector2, Vector2, float> _distance;
-    private readonly List<WaveState<T>> _states;
+    private readonly List<WaveState> _states;
 
-    public WaveFunction(List<WaveState<T>> states, Func<Vector2, Vector2, float> distance)
+    public WaveFunction(List<WaveState> states, Func<Vector2, Vector2, float> distance)
     {
       _states = states;
       _distance = distance;
@@ -44,7 +44,7 @@ namespace Procedural.Scripts.WaveFunction.Waves
      * Returns the state with lowest entropy,
      * i.e lowest number of possibilities, or null
      */
-    private WaveState<T> FindLowestEntropyState()
+    private WaveState FindLowestEntropyState()
     {
       var states = _states
         .FindAll(s => !s.IsCollapsed)

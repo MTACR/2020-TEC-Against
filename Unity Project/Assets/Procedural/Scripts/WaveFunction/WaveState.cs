@@ -5,20 +5,19 @@ using System.Linq;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Procedural.Scripts.WaveFunction.Waves
+namespace Procedural.Scripts.WaveFunction
 {
-  public abstract class WaveState<T> where T : WaveProperty
+  public abstract class WaveState
   {
-    
-    private readonly List<WaveState<T>> _states;
-    private readonly List<T> _possibilities;
+    private readonly List<WaveState> _states;
+    private readonly List<WaveNode> _possibilities;
     private readonly Vector2 _position;
     
     public bool IsCollapsed => _possibilities.Count <= 1;
     public int Entropy => _possibilities.Count;
-    protected ReadOnlyCollection<T> Possibilities => _possibilities.AsReadOnly();
+    protected ReadOnlyCollection<WaveNode> Possibilities => _possibilities.AsReadOnly();
 
-    protected WaveState(List<WaveState<T>> states, Vector2 position, IEnumerable<T> possibilities)
+    protected WaveState(List<WaveState> states, Vector2 position, IEnumerable<WaveNode> possibilities)
     {
       _states = states;
       _position = position;
@@ -50,7 +49,7 @@ namespace Procedural.Scripts.WaveFunction.Waves
     /*
      * Returns a list with adjacent waves using a distance function
      */
-    public List<WaveState<T>> FindNeighbors(Func<Vector2, Vector2, float> distance)
+    public List<WaveState> FindNeighbors(Func<Vector2, Vector2, float> distance)
     {
       return _states.FindAll(w => (int)distance(_position, w._position) == 1);
     }
@@ -71,9 +70,9 @@ namespace Procedural.Scripts.WaveFunction.Waves
       {
         foreach (var neighbor in neighbors)
         {
-          var position = WaveProperty.GetPosition(neighbor._position, _position);
+          var position = WaveNode.GetPosition(neighbor._position, _position);
 
-          if (!WaveProperty.IsCompatible(neighbor._possibilities, possibility, position))
+          if (!WaveNode.IsCompatible(neighbor._possibilities, possibility, position))
           {
             _possibilities.Remove(possibility);
             break;
@@ -85,11 +84,11 @@ namespace Procedural.Scripts.WaveFunction.Waves
     /*
      * Returns the best possibility based on adjacent waves or null
      */
-    private T FindBestPossibility(Func<Vector2, Vector2, float> distance)
+    private WaveNode FindBestPossibility(Func<Vector2, Vector2, float> distance)
     {
       var neighbors = FindNeighbors(distance);
 
-      T best = null;
+      WaveNode best = null;
 
       foreach (var possibility in _possibilities.ToList())
       {
@@ -97,9 +96,9 @@ namespace Procedural.Scripts.WaveFunction.Waves
 
         foreach (var neighbor in neighbors)
         {
-          var position = WaveProperty.GetPosition(neighbor._position, _position);
+          var position = WaveNode.GetPosition(neighbor._position, _position);
 
-          if (!WaveProperty.IsCompatible(neighbor._possibilities, possibility, position))
+          if (!WaveNode.IsCompatible(neighbor._possibilities, possibility, position))
           {
             compatible = false;
             break;

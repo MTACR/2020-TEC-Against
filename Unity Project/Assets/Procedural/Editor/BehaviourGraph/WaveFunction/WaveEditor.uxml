@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Procedural/Editor/BehaviourGraph/WaveFunction/WaveEditor.uss?fileID=7433441132597879392&amp;guid=884f573fbb74554458d23a2997a57c5f&amp;type=3#WaveEditor" />
+    <Procedural.Editor.BehaviourGraph.Views.ToolbarView>
+        <Procedural.Editor.BehaviourGraph.Views.ToolbarMenuView tabindex="-1" text="File" />
+        <Procedural.Editor.BehaviourGraph.Views.ToolbarMenuView tabindex="-1" text="Actions" name="ToolbarMenuView" />
+    </Procedural.Editor.BehaviourGraph.Views.ToolbarView>
+    <Procedural.Editor.BehaviourGraph.Views.SplitView>
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <Procedural.Editor.BehaviourGraph.Views.InspectorView style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: 1px;">
+            <Procedural.Editor.BehaviourGraph.Views.BehaviourTreeView focusable="true" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </Procedural.Editor.BehaviourGraph.Views.SplitView>
+</ui:UXML>

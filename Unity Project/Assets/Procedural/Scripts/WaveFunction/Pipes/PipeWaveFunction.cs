@@ -1,26 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Procedural.Scripts.WaveFunction.Waves;
 using UnityEngine;
 
 namespace Procedural.Scripts.WaveFunction.Pipes
 {
   public class PipeWaveFunction : MonoBehaviour
   {
-    [SerializeField] private List<PipeWaveProperty> possibilities;
+    [SerializeField] private List<WaveNode> possibilities;
     [SerializeField] private SpriteRenderer pipePrefab;
     [SerializeField] private Sprite emptyPrefab;
     [SerializeField] [Range(0, 1)] private float collapseSpeed;
 
-    private WaveFunction<PipeWaveProperty> _waveFunction;
-    private List<WaveState<PipeWaveProperty>> _states;
+    private WaveFunction _waveFunction;
+    private List<WaveState> _states;
     private int _x;
 
     private void Awake()
     {
-      _states = new List<WaveState<PipeWaveProperty>>();
-      _waveFunction = new WaveFunction<PipeWaveProperty>(_states, PositionUtils.ManhattanDistance);
+      _states = new List<WaveState>();
+      _waveFunction = new WaveFunction(_states, PositionUtils.ManhattanDistance);
     }
 
     private void OnGUI()

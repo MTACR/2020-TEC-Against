@@ -1,17 +1,16 @@
 ﻿using System.Collections.Generic;
-using Procedural.Scripts.WaveFunction.Waves;
 using UnityEngine;
 
 namespace Procedural.Scripts.WaveFunction.Pipes
 {
-  public class PipeWaveState : WaveState<PipeWaveProperty>
+  public class PipeWaveState : WaveState
   {
     private readonly SpriteRenderer _renderer;
 
     public PipeWaveState(
-      List<WaveState<PipeWaveProperty>> states,
+      List<WaveState> states,
       Vector2 position,
-      IEnumerable<PipeWaveProperty> possibilities,
+      IEnumerable<WaveNode> possibilities,
       SpriteRenderer renderer
     ) : base(states, position, possibilities)
     {

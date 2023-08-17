@@ -1,4 +1,4 @@
-﻿namespace Procedural.Scripts.WaveFunction.Waves
+﻿namespace Procedural.Scripts.WaveFunction
 {
   public enum WavePosition
   {
